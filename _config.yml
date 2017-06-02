@@ -1,6 +1,6 @@
 #GitHub
 username: ardeego
-repo: ardeego-site
+repo: ardeego.github.io 
 branch: source
 
 # Jekyll source / destination
@@ -14,7 +14,7 @@ email: niko@ardeego.com
 copyright_name: ardeego
 description: "Testing"
 baseurl: "/ardeego"
-url: "http://ardeego.com"
+url: "https://ardeego.github.io"
 twitter_username: ardeego
 github_username:  ardeego
 
