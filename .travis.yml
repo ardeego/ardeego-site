@@ -2,7 +2,9 @@ language: ruby
 rvm:
   - 2.3.1
 before_script:
-  - node_js install 0.10
+  - nvm install node 0.10
+  - node -v
+  - npm install
   - npm install grunt-cli -g
   - npm install grunt --save-dev
 install:
