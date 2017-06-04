@@ -10,8 +10,8 @@ destination: _site
 # Site settings
 title: ardeego
 header-img: img/home-bg.jpg
-email: niko@ardeego.com
-copyright_name: ardeego
+email: ardeego@gmail.com
+copyright_name: Niko Rebenich
 description: "Testing"
 baseurl: ""
 url: "https://ardeego.github.io"
