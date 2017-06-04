@@ -12,6 +12,9 @@
         "grunt-banner": "~0.2.3",
         "grunt-contrib-uglify": "~0.5.1"
     },
+    "scripts": {
+        "default": "grunt default"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ardeego/ardeego.github.io.git"
