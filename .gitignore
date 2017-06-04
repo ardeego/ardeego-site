@@ -1,6 +1,8 @@
 _site
 node_modules
 Gemfile.lock
-vendor/
-.idea/
+vendor
+.idea
 .DS_Store
+*.min.js
+*.min.css
