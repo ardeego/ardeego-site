@@ -1,16 +1,15 @@
-language: node_js
+language: ruby
+rvm:
+  - 2.3.1
 node_js:
   - 0.10
 before_script:
   - npm install grunt-cli -g
-script: grunt build
-
-language: ruby
-rvm:
-  - 2.3.1
 install:
   - bundle install
-script: bundle exec rake site:deploy --quiet
+script:
+  - grunt build
+  - bundle exec rake site:deploy --quiet
 env:
   global:
     secure: aczJBxVLETIPMrgIRkxh2FfEIaASCEvulDv4Jsbec5rlJj8RHbN14wKi+pL9jUCSfawJqkZUu6Vks2W8tAFHhywDYdxqb/mfea56DpJ3rinmSsuc6hoEnGKBOvT/vAAd4zG4mzNBhDqxYXpywNgjIpPg5brXZERqwYbc6GykBhjUW+bPLSxSSkSPsWAc/pPo12eFbvXq9tVyutGlyK0+U+ENdugkPAhgheS3fkomqkFf/YZnGy4WkWRgWzV1XaZsFrBSKIKQNCjQNVG/VcEmt8SCkRrxhm34lQv2IxterDGklXvltS6u6cU72XRL9pGDqdeO5xDZBdWo8WuJpuoJm8nBybSZBrgouYlTcs+L7mtUvhAB9Rr7OkX3F9sqOmwP/tq7qD1T61GPs7egwmzUZyUlD/haEWNmCGQXuOp9OwcBMaOuqe5FKT4yx/Mp4OijJO53wH78dX0S6v4FnUfiMX39CYwLXsWZQ8qcbyJAgkpjQ/yaUBjLiu2GFXt5gxBZg9HHkWHI2QVmgD4QY8CIKWKBYXNaAgup0sb09Hq7TiLwlyjcc3X5Ts7G/thWU0kVhiAhA+6qDNNOMePAbTsn2W4Nd7/fY8GS5dj4siTj26kLhsI3MlNXFW7kxCSvW+quub2fnveZ4vqtM75u6TY3ahHJYZpAid0/x8gli46Mwi0=
