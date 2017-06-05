@@ -30,7 +30,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://hook.io/ardeego/php_mailer",
+                url: "https://hook.io/ardeego/form_mailer",
                 type: "POST",
                 data: {
                     name: name,
