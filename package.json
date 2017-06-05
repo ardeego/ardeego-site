@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "homepage": "http://ardeego.com",
     "author": "Niko Rebenich",
-    "license": "MIT",
+    "license": "CC-BY-NC-SA-3.0",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
